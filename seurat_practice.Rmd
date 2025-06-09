@@ -28,7 +28,7 @@ Looking at the count matrix
 ```{r}
 pbmc.data[c("CD3D", "TCL1A", "MS4A1"), 1:30]
 
-````
+```
 
 
 

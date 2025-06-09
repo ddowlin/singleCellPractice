@@ -1,3 +1,13 @@
+---
+title: "Seurat_practice"
+output: html_document
+date: "2025-06-09"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
 Load packages 
 ```{r} 
 library(dplyr)
@@ -28,7 +38,4 @@ Looking at the count matrix
 ```{r}
 pbmc.data[c("CD3D", "TCL1A", "MS4A1"), 1:30]
 
-````
-
-
-
+```
